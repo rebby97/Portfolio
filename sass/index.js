@@ -28,38 +28,38 @@ function aboutFadeIn(entries, observer) {
           .classList.add('skills__item-fade-in');
       });
 
-      //webpack
-      sleep(1100).then(() => {
-        document
-          .querySelector('.skills__item--webpack')
-          .classList.add('skills__item-fade-in');
-      });
-
       //js
-      sleep(1200).then(() => {
+      sleep(1100).then(() => {
         document
           .querySelector('.skills__item--js')
           .classList.add('skills__item-fade-in');
       });
 
-      //git
+      //css
+      sleep(1200).then(() => {
+        document
+          .querySelector('.skills__item--css')
+          .classList.add('skills__item-fade-in');
+      });
+
+      //mysql
       sleep(1300).then(() => {
+        document
+          .querySelector('.skills__item--sql')
+          .classList.add('skills__item-fade-in');
+      });
+
+      //git
+      sleep(1400).then(() => {
         document
           .querySelector('.skills__item--git')
           .classList.add('skills__item-fade-in');
       });
 
-      //sass
-      sleep(1400).then(() => {
-        document
-          .querySelector('.skills__item--sass')
-          .classList.add('skills__item-fade-in');
-      });
-
-      //node
+      //python
       sleep(1500).then(() => {
         document
-          .querySelector('.skills__item--npm')
+          .querySelector('.skills__item--python')
           .classList.add('skills__item-fade-in');
       });
 
